@@ -84,7 +84,7 @@
 		desc-size = <4>;
 		card-detect-delay = <200>;
 		data-timeout = <200>;
-		hto-timeout = <80>;
+		hto-timeout = <38>;
 		clock-frequency = <700000000>;
 		samsung,dw-mshc-ciu-div = <3>;
 		samsung,dw-mshc-txdt-crc-timer-fastlimit = <0x34>;
@@ -140,7 +140,7 @@
 		desc-size = <4>;
 		card-detect-delay = <200>;
 		data-timeout = <200>;
-		hto-timeout = <80>;
+		hto-timeout = <38>;
 		clock-frequency = <700000000>;
 		samsung,dw-mshc-ciu-div = <3>;
 		samsung,dw-mshc-sdr-timing = <3 0 2 0>;
@@ -186,7 +186,7 @@
 	};
 
 	i2c_2: i2c@13890000 {
-		status = "okay";
+		status = "disabled";
 		samsung,i2c-max-bus-freq = <400000>;
 
 		isl98611@29 {
