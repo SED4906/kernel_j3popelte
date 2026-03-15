@@ -22,6 +22,10 @@
 			reg = <0x0 0x52800000 0x200000>;
 		};
 
+		shmem_thing {
+			reg = <0x0 0x95800000 0x400000>;
+		};
+
 		camera {
 			compatible = "exynos8890-ion,camera";
 			reg = <0x0 0x710EF000 0x1000>;
